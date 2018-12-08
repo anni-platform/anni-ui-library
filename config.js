@@ -40,7 +40,7 @@ export default [
   createModuleExport('cjs'),
   ...components,
   createModuleExport('esm', {
-    input: `./src/globalStyles.js`,
-    outputFileName: `./lib/globalStyles.js`,
+    input: `./src/GlobalStyles.js`,
+    outputFileName: `./lib/GlobalStyles.js`,
   }),
 ];

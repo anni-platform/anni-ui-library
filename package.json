@@ -52,6 +52,7 @@
     "lint-staged": "^8.0.5",
     "np": "^3.0.4",
     "prettier": "^1.15.2",
+    "prop-types": "^15.6.2",
     "react-test-renderer": "^16.6.3",
     "rollup": "^0.67.3",
     "rollup-plugin-babel": "^4.0.3",
