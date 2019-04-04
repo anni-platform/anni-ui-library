@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import utils from '../utils';
+import utils from '../../utils';
 
 export const ButtonGroup = styled.div`
   ${utils.margin};
