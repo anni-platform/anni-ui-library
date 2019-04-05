@@ -5,6 +5,7 @@ export default {
   colorError: '#F2596B',
   textPrimary: '#FFFFFF',
   iconPrimary: '#FFFFFF',
+  shadow: '#1C1C23',
   bgA: '#1C1C23',
   bgB: '#272730',
   bgC: '#353544',
