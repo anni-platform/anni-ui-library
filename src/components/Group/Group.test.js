@@ -1,24 +1,22 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import { ButtonGroup } from './ButtonGroup';
+import { Group } from './Group';
 import { Button } from '../Button/Button';
 import defaultTheme from '../../themes/default';
 
-test('ButtonGroup default', () => {
+test('Group default', () => {
   expect(
-    renderer
-      .create(<ButtonGroup theme={defaultTheme}>Perform action</ButtonGroup>)
-      .toJSON()
+    renderer.create(<Group theme={defaultTheme}>Perform action</Group>).toJSON()
   ).toMatchSnapshot();
 });
 
-test('ButtonGroup center', () => {
+test('Group center', () => {
   expect(
     renderer
       .create(
-        <ButtonGroup theme={defaultTheme} center>
+        <Group theme={defaultTheme} center>
           <Button>Perform action</Button>
-        </ButtonGroup>
+        </Group>
       )
       .toJSON()
   ).toMatchSnapshot();
