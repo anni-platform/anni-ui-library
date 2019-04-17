@@ -52,7 +52,7 @@ export const NakedButton = styled(Button)`
   display: flex;
   flex-direction: column;
 
-  p {
+  span {
     margin: 4px 0 0 0;
   }
 `;
