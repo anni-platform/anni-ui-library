@@ -1,8 +1,8 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
-import { Button, NakedButton } from './Button';
-import { OutlineIcon } from '../Icon/Icon';
+import { OutlineIcon } from 'components/Icon';
+import { Button } from '.';
 
 storiesOf('Form/Buttons', module)
   .add('default', () => (
@@ -14,7 +14,7 @@ storiesOf('Form/Buttons', module)
     </Button>
   ))
   .add('naked', () => (
-    <NakedButton onClick={action('clicked')}>
+    <Button naked onClick={action('clicked')}>
       <OutlineIcon name="logo" />
-    </NakedButton>
+    </Button>
   ));

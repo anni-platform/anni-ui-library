@@ -1,3 +1,4 @@
+import fs from 'fs';
 import resolve from 'rollup-plugin-node-resolve';
 import babel from 'rollup-plugin-babel';
 import { uglify } from 'rollup-plugin-uglify';
@@ -9,6 +10,8 @@ const options = {
   plugins: [
     resolve({
       extensions: ['.js', '.jsx', '.json'],
+      module: true,
+      main: true,
     }),
     babel({
       exclude: 'node_modules/**',
@@ -26,7 +29,7 @@ const options = {
 export default [
   ...components.map(c => ({
     ...options,
-    input: `./src/components/${c}.js`,
+    input: `./src/components/${c}/index.js`,
     output: {
       file: `./lib/${c}.js`,
       format: 'cjs',

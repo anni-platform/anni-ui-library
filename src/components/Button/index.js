@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import utils from '../../utils';
-import { EASE_OUT_EXPO } from '../../constants';
+import utils from 'shared/utils';
+import { EASE_OUT_EXPO } from 'shared/constants';
 
 export const Button = styled.button`
   align-items: center;

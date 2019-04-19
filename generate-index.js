@@ -2,7 +2,7 @@ const fs = require('fs');
 const { components, componentsPath, mainFile } = require('./build-config.json');
 
 const componentExports = components
-  .map(c => `export { ${c} } from '${componentsPath}/${c}';`)
+  .map(c => `export * from '${componentsPath}/${c}';`)
   .join('\n');
 
 const fileContent = `${componentExports}\n

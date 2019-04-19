@@ -22,3 +22,14 @@ Outputs: `./index.js` and `lib/*.js`
 1. `npm login`
 2. `npm run publish`
 3. Answer questions from np
+
+## UI Component Directory Structure
+
+```
+.
+├── components
+│   ├── ComponentName
+│   │   ├── ComponentName.stories.js
+│   │   ├── ComponentName.tests.js
+│   │   └── index.js
+```

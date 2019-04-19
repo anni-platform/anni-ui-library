@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Above } from '../../constants';
+import { Above } from 'shared/constants';
 
 export const Grid = styled.div`
   display: grid;

@@ -1,8 +1,8 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import { Group } from './Group';
-import { Button } from '../Button/Button';
-import defaultTheme from '../../themes/default';
+import { Button } from 'components/Button';
+import defaultTheme from 'themes/default';
+import { Group } from '.';
 
 test('Group default', () => {
   expect(

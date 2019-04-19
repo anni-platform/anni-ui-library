@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { OutlineIcon, SolidIcon } from './Icon';
+import { OutlineIcon, SolidIcon } from '.';
 
 storiesOf('Icons', module)
   .add('logo', () => <OutlineIcon name="logo" />)
