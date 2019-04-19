@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import { EASE_OUT_BACK } from '../../constants';
-import Utils from '../../utils';
+import { EASE_OUT_BACK } from 'shared/constants';
+import Utils from 'shared/utils';
 
 export const CardControls = styled.div`
   align-items: center;
@@ -13,6 +13,7 @@ export const CardControls = styled.div`
 `;
 
 export const CardDetails = styled.div`
+  color: ${({ theme }) => theme.textPrimary};
   height: auto;
   padding: 16px 24px;
 `;

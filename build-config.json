@@ -1,5 +1,14 @@
 {
-  "components": ["AnniUILibraryProvider", "Button", "ButtonGroup", "Wrapper"],
+  "components": [
+    "AnniUILibraryProvider",
+    "Button",
+    "Card",
+    "Grid",
+    "Group",
+    "Icon",
+    "Image",
+    "Wrapper"
+  ],
   "componentsPath": "./components",
   "mainFile": "./src/index.js"
 }

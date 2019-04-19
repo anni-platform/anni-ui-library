@@ -1,8 +1,8 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
-import { Button } from '../Button/Button';
-import { Group } from './Group';
+import { Button } from '../Button';
+import { Group } from '.';
 
 storiesOf('Form/Group', module)
   .add('default', () => (

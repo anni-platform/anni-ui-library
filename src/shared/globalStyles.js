@@ -4,10 +4,10 @@ import { createGlobalStyle } from 'styled-components';
  * Font Definitions
  */
 
-import ApercuRegular from './fonts/ApercuTrial-Regular.woff';
-import ApercuMedium from './fonts/ApercuTrial-Medium.woff';
-import ApercuBold from './fonts/ApercuTrial-Bold.woff';
-import ApercuMono from './fonts/ApercuTrial-Mono.woff';
+import ApercuRegular from 'fonts/ApercuTrial-Regular.woff';
+import ApercuMedium from 'fonts/ApercuTrial-Medium.woff';
+import ApercuBold from 'fonts/ApercuTrial-Bold.woff';
+import ApercuMono from 'fonts/ApercuTrial-Mono.woff';
 
 export const GlobalStyles = createGlobalStyle`
   @font-face {
@@ -37,6 +37,7 @@ export const GlobalStyles = createGlobalStyle`
   body {
     color: ${props => props.theme.textColor};
     background-color: ${props => props.theme.bgB};
+    font-family: 'Apercu', sans-serif;
   }
 `;
 

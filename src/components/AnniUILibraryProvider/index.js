@@ -1,9 +1,9 @@
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
 import PropTypes from 'prop-types';
-import { GlobalStyles } from '../GlobalStyles';
-import defaultTheme from '../themes/default';
-import darkTheme from '../themes/dark';
+import { GlobalStyles } from 'shared/globalStyles';
+import defaultTheme from 'themes/default';
+import darkTheme from 'themes/dark';
 
 export const AnniUILibraryProvider = ({ theme, children }) => (
   <ThemeProvider theme={theme}>

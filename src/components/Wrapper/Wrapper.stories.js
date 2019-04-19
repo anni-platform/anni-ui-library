@@ -1,9 +1,9 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 
-import { Wrapper } from './Wrapper';
-import { Button } from '../Button/Button';
-import { Group } from '../Group/Group';
+import { Button } from 'components/Button';
+import { Group } from 'components/Group';
+import { Wrapper } from '.';
 
 storiesOf('Layout/Wrapper', module).add('default', () => (
   <Wrapper>

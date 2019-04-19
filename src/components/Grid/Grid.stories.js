@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { Grid, GridItem } from './Grid';
+import { Grid, GridItem } from '.';
 
 storiesOf('Layout/Grid', module).add('default', () => (
   <Grid small>

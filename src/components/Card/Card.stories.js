@@ -1,10 +1,10 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
-import { Card, CardControls, CardDetails } from './Card';
-import { Grid } from '../Grid/Grid';
-import { SolidIcon, OutlineIcon } from '../Icon/Icon';
-import { Image } from '../Image/Image';
+import { Grid } from 'components/Grid';
+import { SolidIcon, OutlineIcon } from 'components/Icon';
+import { Image } from 'components/Image';
+import { Card, CardControls, CardDetails } from '.';
 
 storiesOf('Layout/Card', module)
   .add('default', () => (
